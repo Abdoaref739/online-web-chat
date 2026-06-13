@@ -42,20 +42,49 @@ div > span {
 }
 div > button{
     width: 320px;
-    height: 55px;
+    height: 70px;
     background-color: #5f7be2;
     color: white;
     font-family: "TitleFont", sans-serif;
     font-size: 25px;
     font-weight: 600;
     border-radius: 10px;
-    border: 3px solid #5b77db;
+    border: 3px solid #4463d3;
     margin-top: 40px;
+    cursor: pointer;
+    border-bottom-width: 10px;
+}
+div > button:hover{
+    background-color: #4c6cdf;
 }
 footer{
     color: white;
     font-size: 20px;
     font-family: "FooterFont", 'Times New Roman', Times, serif;
     font-weight: 200;
-    margin-top: 160px;
+    margin-top: 140px;
+}
+@media screen and (max-width: 585px){
+    div > h1{
+        font-size: 80px;
+    }
+    footer{
+        margin-top: 190px;
+    }
+}
+@media screen and (max-width: 450px){
+    div > h1 {
+        font-size: 50px;
+    }
+    div > span {
+        font-size: 15px;
+    }
+    div > button{
+        width: 250px;
+        height: 60px;
+    }
+    footer{
+        font-size: 15px;
+        margin-top: 250px;
+    }
 }

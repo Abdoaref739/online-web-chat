@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "TitleFont";
+    src: url("./fonts/Makcasa-Regular.ttf");
+}
+@font-face {
+    font-family: "FooterFont";
+    src: url("./fonts/Bringbold\ Nineties\ Demo.ttf");
+}
+body{
+            background-color: #23272a;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+}
+div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+}
+div > i {
+    font-size: 90px;
+    color: #7289da;
+    font-weight: 200;
+}
+div > h1{
+    font-size: 120px;
+    margin-top: 30px;
+    font-family: "TitleFont", sans-serif;
+    color: white;
+}
+div > span {
+    font-size: 25px;
+    font-family: "TitleFont", sans-serif;
+    color: white;
+}
+div > button{
+    width: 320px;
+    height: 55px;
+    background-color: #5f7be2;
+    color: white;
+    font-family: "TitleFont", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 3px solid #5b77db;
+    margin-top: 40px;
+}
+footer{
+    color: white;
+    font-size: 20px;
+    font-family: "FooterFont", 'Times New Roman', Times, serif;
+    font-weight: 200;
+    margin-top: 160px;
+}

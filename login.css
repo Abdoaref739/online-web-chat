@@ -13,6 +13,9 @@ body{
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    background-image: url("./imgs/background-img.png");
+    background-size: cover;
+    background-position: 10px;
 }
 .main-text-div {
     width: 40%;
@@ -107,6 +110,7 @@ body{
     font-size: 23px;
     color: #23272a;
     margin-left: 20px;
+    cursor: pointer;
 }
 .signup {
     display: none;

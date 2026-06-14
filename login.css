@@ -12,6 +12,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .main-text-div {
     width: 40%;
@@ -110,10 +111,10 @@ body{
 
     }
     .main-text-div > h2 {
-        font-size: 45px;
+        font-size: 43px;
     }
     .container {
-        margin-left: 60px;
+        margin-left: 65px;
         width: 85%;
         margin-top: 50px;
     }
@@ -134,5 +135,8 @@ body{
     }
     #btn{
         margin-left: 0px;
+    }
+    #icon{
+        margin-left: 230px;
     }
 }

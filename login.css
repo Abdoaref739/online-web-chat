@@ -55,6 +55,14 @@ body{
     cursor: pointer;
     margin-left: 350px;
 }
+#astrisk{
+    position: absolute;
+    margin-top: 15px;
+    font-size: 10px;
+    color: darkred;
+    cursor: pointer;
+    margin-left: 380px;
+}
 #email-field{
     width: 380px;
     height: 50px;
@@ -120,7 +128,7 @@ body{
 
     }
     .main-text-div > h2 {
-        font-size: 43px;
+        font-size: 41px;
     }
     .container {
         margin-left: 65px;
@@ -143,9 +151,15 @@ body{
         margin-left: 15px;
     }
     #btn{
-        margin-left: 0px;
+        margin-left: 10px;
     }
     #icon{
         margin-left: 230px;
+    }
+    #astrisk{
+        margin-left: 230px;
+    }
+    .signup > h2{
+        font-size: 28px;
     }
 }

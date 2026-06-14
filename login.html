@@ -12,7 +12,7 @@
     <h2>Welcome to the User Area</h2>
     <span>join us by login or creating new account</span>
     </div>
-    <div class="container">
+    <div class="login container">
         <h2>Welcome Back</h2>
         <form>
         <input type="text" id="email-field" placeholder="Enter your Email">
@@ -25,5 +25,31 @@
         <button type="submit" id="btn">Login</button>
         </form>
     </div>
+    <div class="signup container">
+        <h2>Create your first account</h2>
+        <form>
+        <input type="text" id="email-field" placeholder="Enter your Email">
+        <div>
+        <i class="fa-solid fa-eye" id="icon"></i>
+        <i class="fa-solid fa-eye-slash" id="icon"></i>
+        <input type="password" id="password-field" placeholder="Enter your Password">
+        </div>
+        <div>
+        <i class="fa-solid fa-eye" id="icon"></i>
+        <i class="fa-solid fa-eye-slash" id="icon"></i>
+        <input type="password" id="password-field" placeholder="Re-Enter your Password">
+        </div>
+        <button type="submit" id="btn">Create a new account</button>
+        </form>
+    </div>
+    <script>
+        let signupContainer = document.querySelector(".signup");
+        let loginContainer = document.querySelector(".login");
+        let  createAccountLink = document.getElementById("create-account-link");
+        createAccountLink.addEventListener("click", function(){
+            signupContainer.style.display = "flex";
+            loginContainer.style.display = "none";
+        });
+    </script>
 </body>
 </html>

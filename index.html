@@ -12,8 +12,14 @@
     <i class="fa-regular fa-comment"></i>
     <h1>ONLINE CHAT</h1>
     <span>An open-source online chatapp to chat with your lovely fellas!</span>
-    <button>Start Chatting</button>
+    <button id="btn">Start Chatting</button>
     </div>
     <footer>Patch 1.0.0.1 - Made by <span>Aref</span> - 2026 &copy;copyright All Rights Reserved</footer>
+    <script>
+        let btn = document.getElementById("btn");
+        btn.addEventListener("click", function(){
+            window.location.href = "./login.html";
+        });
+    </script>
 </body>
 </html>

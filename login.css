@@ -80,10 +80,11 @@ body{
 }
 #create-account-link {
     position: absolute;
-    font-size: 15px;
+    font-size: 18px;
     color: white;
-    margin-left: 75px;
+    margin-left: 55px;
     margin-top: 20px;
+    font-family: "TitleFont", sans-serif;
 }
 #btn{
     width: 90%;
@@ -97,4 +98,41 @@ body{
     font-size: 23px;
     color: #23272a;
     margin-left: 20px;
+}
+@media screen and (max-width: 400px){
+    body{
+        flex-direction: column;
+    }
+    .main-text-div {
+        width: 100%;
+        margin-left: 120px;
+        margin-top: 100px;
+
+    }
+    .main-text-div > h2 {
+        font-size: 45px;
+    }
+    .container {
+        margin-left: 60px;
+        width: 85%;
+        margin-top: 50px;
+    }
+    .container > h2{
+        font-size: 35px;
+    }
+    #email-field{
+        width: 250px;
+        margin-left: 0px;
+    }
+    #password-field{
+        width: 250px;
+        margin-left: 0px;
+    }
+    #create-account-link{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    #btn{
+        margin-left: 0px;
+    }
 }

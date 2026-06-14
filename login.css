@@ -34,9 +34,67 @@ body{
     flex-direction: column;
     align-items: center;
     width: 450px;
-    height: 580px;
+    height: 450px;
     background-color: #30363a;
-    margin-top: 90px;
+    margin-top: 150px;
     margin-right: 80px;
     border-radius: 20px;
+}
+.container > h2{
+    font-size: 48px;
+    font-family: "TitleFont";
+    color: white;
+    margin-top: 50px;
+}
+#icon {
+    position: absolute;
+    margin-top: 55px;
+    font-size: 20px;
+    color: #23272a;
+    cursor: pointer;
+    margin-left: 350px;
+}
+#email-field{
+    width: 380px;
+    height: 50px;
+    background-color: #30363a;
+    margin-top: 40px;
+    border: 3px solid #23272a;
+    font-family: "TitleFont", sans-serif;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+#password-field{
+    width: 380px;
+    height: 50px;
+    background-color: #30363a;
+    margin-top: 40px;
+    border: 3px solid #23272a;
+    font-family: "TitleFont", sans-serif;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+#create-account-link {
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+#btn{
+    width: 90%;
+    height: 60px;
+    margin-top: 70px;
+    background-color: #30363a;
+    border: 3px solid #23272a;
+    border-bottom-width: 10px;
+    border-radius: 10px;
+    font-family: "TitleFont", sans-serif;
+    font-size: 23px;
+    color: #23272a;
+    margin-left: 20px;
 }
